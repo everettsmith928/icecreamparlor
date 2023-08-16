@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(125, 125, 125);
+}
+
+header {
+  background-color: rgb(45, 45, 45);
+  margin-bottom: 5vh;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: rgb(255, 246, 218);
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(255, 246, 218);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgb(255, 246, 218);
+}
+
+.logo {
+  color: rgb(255, 246, 218);
+}
+
+.menu-title {
+  background-color: rgb(45, 45, 45);
+  padding: 1rem;
+}
+
+.menu-items {
+  max-height: 80vh;
+  overflow-y: scroll;
+  scrollbar-color: rgba(255, 255, 255, 0);
+}
+
+.cart {
+  min-height: 60vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+  border: 10px solid;
+  border-color: rgb(255, 246, 218);
+  border-radius: 8px !important;
+  background-color: rgb(55, 55, 55);
+}
+
+.cart-item {
+  padding: 1em;
+  background-color: rgb(55, 55, 55);
+}
+
+.cart-header {
+  max-height: 10vh;
+}
+
+.button {
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 246, 218);
+}
+
+.image-box {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.285);
+}
+
+#flavor {
+  font-size: 1rem;
+}
+
+#total {
+  padding: 1rem;
+  color: rgb(255, 246, 218);
+}
